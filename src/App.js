@@ -5,7 +5,7 @@ function App() {
 
   const [dressupState, setDressupState] = useState({
     dress: {current: 0, total: 2},
-    // ears: {current: 0, total: 3},
+    gloves: {current: 0, total: 2},
     // mouth: {current: 0, total: 4},
     // nose: {current: 0, total: 3},
     // clothes: {current: 0, total: 3},  
@@ -33,12 +33,14 @@ function App() {
   return (
     <div className="App">
       <input type="button" value="Robe Suivante" onClick={() => next("dress")}/>
+      <input type="button" value="Gants Suivants" onClick={() => next("gloves")}/>
       {/* <input type="button" value="Réinitialiser"></input> */}
       <div id="container">
         <div id="background">
           <div id="titre"></div>
           <div id="body"></div>
-          <div id="clothes" className={"dress"+(dressupState["dress"].current)}></div>
+          <div id="dress" className={"dress"+(dressupState["dress"].current)}></div>
+          <div id="gloves" className={"gloves"+(dressupState["gloves"].current)}></div>
         </div>
       </div>
       

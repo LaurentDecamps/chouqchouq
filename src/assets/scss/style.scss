@@ -1,0 +1,57 @@
+#container{
+    position: absolute;
+    margin:auto;
+    width: 1000px;
+    height: 1123px;
+    z-index: 0; 
+}
+
+#body{
+    position:absolute;
+    width: 819px;
+    height: 1158px;
+    background-image: url("../img/Body.png");
+    background-repeat: no-repeat;
+}
+
+#titre{
+    position:absolute;    
+    width: 819px;
+    height: 1158px;
+    background-image: url("../img/Titre.png");
+    left: 200px;
+}
+
+#background{
+    position: absolute;
+    bottom: 1100px;
+    right: 1158px;
+}
+
+#dress{
+    position:absolute;
+    width: 819px;
+    height: 1158px;
+}
+
+#gloves{
+    position:absolute;
+    width: 819px;
+    height: 1158px;
+}
+
+.dress1{
+    background-image: url(../img/dress1.png);
+}
+
+.dress0{
+    background-image: none;
+}
+
+.gloves1{
+    background-image: url(../img/gloves1.png);
+}
+
+.gloves0{
+    background-image: none;
+}
